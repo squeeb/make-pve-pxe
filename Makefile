@@ -4,7 +4,7 @@ tmp:
 		mkdir tmp
 
 tmp/proxmox.iso: | tmp
-		curl -o tmp/proxmox.iso http://download.proxmox.com/iso/proxmox-ve_4.4-eb2d6f1e-2.iso
+		curl -o tmp/proxmox.iso http://download.proxmox.com/iso/proxmox-ve_5.1-722cc488-1.iso
 
 tmp/mnt: | tmp/proxmox.iso
 		mkdir tmp/mnt
